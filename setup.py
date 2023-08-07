@@ -5,8 +5,8 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name='Nutter-Tools',
-    version='0.0.1',
+    name='Thugstools',
+    version='0.0.32',
     description='A simple program to find files easily with similar type of extension and to organize them.',
     author= 'Ram Nikhilesh',
     url = 'https://github.com/Spidy20/PyMusic_Player',
@@ -22,8 +22,5 @@ setup(
     py_modules=['NTools'],
     package_dir={'':'src'},
     install_requires = [
-        'OS',
-        'shutil',
-        'time'
     ]
 )
