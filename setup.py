@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name='Thugstools',
-    version='0.0.32',
+    version='3.11',
     description='A simple program to find files easily with similar type of extension and to organize them.',
     author= 'Ram Nikhilesh',
     url = 'https://github.com/Spidy20/PyMusic_Player',
@@ -18,9 +18,6 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.6',
     py_modules=['NTools'],
     package_dir={'':'src'},
-    install_requires = [
-    ]
 )
